@@ -1,8 +1,8 @@
 {
   "pip-compile": {
     "managerFilePatterns": [
-      "/(^|/)deploy\\.txt$/",
-      "/(^|/)test\\.txt$/"
+      "(^|/)deploy\\.txt$",
+      "(^|/)test\\.txt$"
     ]
   }
 }
