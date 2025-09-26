@@ -1,6 +1,6 @@
 {
   "pip-compile": {
-    "fileMatch": ["/(^|/)requirements/.*.txt$/"],
+    "fileMatch": ["/(^|/)requirements/.*.in$/"],
     "lockFileMaintenance": {
       "schedule": null
     }
