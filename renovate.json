@@ -1,6 +1,7 @@
 {
   "pip-compile": {
     "managerFilePatterns": [
+      "requirements/*.txt",
       "(^|/)deploy\\.txt$",
       "(^|/)test\\.txt$"
     ]
