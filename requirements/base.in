@@ -3,7 +3,7 @@ uvicorn[standard]
 ddtrace
 xlsxwriter
 requests
-babel==2.11.0
+babel==2.17.0
 httpx
 python-json-logger
 pydantic-settings
