@@ -10,7 +10,7 @@ django==3.0.14
     # via
     #   -r requirements.in
     #   djangorestframework
-djangorestframework==3.12.4
+djangorestframework==3.16.1
     # via -r requirements.in
 pytz==2021.1
     # via django
