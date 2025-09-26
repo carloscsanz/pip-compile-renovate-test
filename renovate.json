@@ -1,6 +1,10 @@
 {
   "pip-compile": {
-    "fileMatch": ["/(^|/)requirements/.*.in$/"],
+    "fileMatch": [
+      "(^|/)base\\.in$",
+      "(^|/)deploy\\.in$",
+      "(^|/)test\\.in$"
+    ],
     "lockFileMaintenance": {
       "schedule": null
     }
