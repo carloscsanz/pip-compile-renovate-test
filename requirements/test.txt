@@ -86,7 +86,7 @@ envier==0.6.1
     # via ddtrace
 et-xmlfile==2.0.0
     # via openpyxl
-fastapi==0.117.1
+fastapi==0.119.0
     # via -r requirements/base.in
 filelock==3.16.1
     # via safety
