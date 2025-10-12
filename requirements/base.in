@@ -7,7 +7,7 @@ babel==2.11.0
 httpx
 python-json-logger
 pydantic-settings
-idna==3.10
+idna==3.11
 pillow>=11.3.0
 openpyxl
 pandas
