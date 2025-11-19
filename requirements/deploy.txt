@@ -18,6 +18,8 @@ aioitertools==0.12.0
     # via aiobotocore
 aiosignal==1.4.0
     # via aiohttp
+annotated-doc==0.0.4
+    # via fastapi
 annotated-types==0.7.0
     # via pydantic
 anyio==4.10.0
@@ -53,7 +55,7 @@ envier==0.6.1
     # via ddtrace
 et-xmlfile==2.0.0
     # via openpyxl
-fastapi==0.117.1
+fastapi==0.121.3
     # via -r requirements/base.in
 frozenlist==1.7.0
     # via
