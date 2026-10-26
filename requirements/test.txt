@@ -35,7 +35,7 @@ attrs==25.3.0
     # via aiohttp
 authlib==1.6.2
     # via safety
-babel==2.11.0
+babel==2.18.0
     # via -r requirements/base.in
 bandit==1.8.6
     # via -r requirements/test.in
@@ -245,9 +245,7 @@ python-dotenv==1.1.1
 python-json-logger==3.3.0
     # via -r requirements/base.in
 pytz==2025.2
-    # via
-    #   babel
-    #   pandas
+    # via pandas
 pyyaml==6.0.2
     # via
     #   bandit
