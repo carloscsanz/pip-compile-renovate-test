@@ -4,9 +4,9 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/test.txt requirements/base.in requirements/test.in
 #
-aioboto3==15.1.0
+aioboto3==15.5.0
     # via -r requirements/base.in
-aiobotocore[boto3]==2.24.0
+aiobotocore[boto3]==2.25.1
     # via
     #   aioboto3
     #   s3fs
@@ -39,12 +39,12 @@ babel==2.11.0
     # via -r requirements/base.in
 bandit==1.8.6
     # via -r requirements/test.in
-boto3==1.39.11
+boto3==1.40.61
     # via
     #   -r requirements/test.in
     #   aiobotocore
     #   moto
-botocore==1.39.11
+botocore==1.40.61
     # via
     #   aiobotocore
     #   boto3
@@ -275,7 +275,7 @@ ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
 s3fs==2025.7.0
     # via -r requirements/test.in
-s3transfer==0.13.1
+s3transfer==0.14.0
     # via boto3
 safety==3.6.0
     # via -r requirements/test.in

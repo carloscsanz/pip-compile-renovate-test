@@ -4,9 +4,9 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/deploy.txt requirements/base.in requirements/deploy.in
 #
-aioboto3==15.1.0
+aioboto3==15.5.0
     # via -r requirements/base.in
-aiobotocore[boto3]==2.24.0
+aiobotocore[boto3]==2.25.1
     # via aioboto3
 aiofiles==24.1.0
     # via aioboto3
@@ -29,9 +29,9 @@ attrs==25.3.0
     # via aiohttp
 babel==2.11.0
     # via -r requirements/base.in
-boto3==1.39.11
+boto3==1.40.61
     # via aiobotocore
-botocore==1.39.11
+botocore==1.40.61
     # via
     #   aiobotocore
     #   boto3
@@ -141,7 +141,7 @@ pyyaml==6.0.2
     # via uvicorn
 requests==2.32.5
     # via -r requirements/base.in
-s3transfer==0.13.1
+s3transfer==0.14.0
     # via boto3
 six==1.17.0
     # via python-dateutil
