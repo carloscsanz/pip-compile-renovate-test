@@ -1,4 +1,4 @@
-fastapi==0.117.1
+fastapi==0.162.7
 uvicorn[standard]
 ddtrace
 xlsxwriter
